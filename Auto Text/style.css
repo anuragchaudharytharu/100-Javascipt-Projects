@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background: teal;
+}
+
+.text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  color: brown;
+  display: inline-flex;
+  align-items: center;
+}
+
+span::after {
+  content: '';
+  width: 4px;
+  height: 55px;
+  background-color: brown;
+  margin-left: 10px;
+}
