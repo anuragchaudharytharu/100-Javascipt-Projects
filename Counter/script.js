@@ -42,7 +42,6 @@ subtractBtn.addEventListener('click', () => {
 
 resetBtn.addEventListener('click', () => {
   num = 0;
-  input.valueAsNumber = 0;
   h1.innerHTML = num;
   h2.innerHTML = num;
 });
